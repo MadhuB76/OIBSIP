@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <!-- Header Setion & Logo -->
+    <div class="Header">
+        <h2>Temperature Converter</h2>
+        <img src="Images/Thermometer.png" alt="Thermometer">
+    </div>
+
+    <!-- Converter Section -->
+
+    <div class="Container">
+        <div class="form elements">
+
+            <!-- Input From User -->
+            <div class="element" id="element-1">
+
+                <div class="Input">
+                    <h3>Choose Units</h3>
+                    <label class="Select">Scale:
+                        <select class="Option" name="Scale" id="Scale">
+                            <option value="" disabled selected>Choose Units</option>
+                            <option value="Celcius">Celcius</option>
+                            <option value="Fahrenheit">Fahrenheit</option>
+                        </select></label>
+                </div>
+            </div>
+            <div class="element" id="element-2">
+                <div class="Temperature">
+                    <h3>Temperature</h3>
+                    <input type="number" placeholder="Enter Temperature" id="input" />
+                </div>
+            </div>
+            <!-- Output to the User -->
+            <div class="element" id="element-3">
+                <div class="Result">
+                    <h3>Result in °C or °F</h3>
+                    <input type="text" placeholder="Converted" id="Output" readonly />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button To Convert  -->
+    <div class="Button">
+        <input type="button" id="button" onclick="convert();" value="Convert" />
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>

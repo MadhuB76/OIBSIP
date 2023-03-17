@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color:#42032C ;
+    /* background-color: #E6D2AA; */
+}
+.Header h2{
+    font-family: 'Sacramento', cursive;
+    padding-top: 3%;
+    font-size: 3rem;
+    color: #E6D2AA;
+    /* color: #42032C; */
+}
+.Header img{
+    height: 80px;
+    position:relative ;
+    bottom: 25px;
+    /* bottom: 105px; */
+    /* left: 310px; */
+}
+.elements{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.element{
+    height: 200px;
+    width: 300px;
+    border: #C3ACD0 solid 3px;
+    border-radius: 15px;
+}
+#element-1{
+    background-color: #42032C;
+}
+#element-2{
+    background-color: #42032C;
+}
+#element-3{
+    background-color: #42032C;
+}
+.Container .elements .element h3{
+    font-size: 30px;
+    color:#D36B00;
+    margin-top: 40px;
+}
+.Container .elements .element .Input .Select{
+    font-size: 24px ;
+    color: #E6D2AA;
+}
+.Container .elements .element .Input .Select .Option{
+    font-size:20px;
+    border-radius: 4px;
+    margin-top: 4px;
+    color: #3C2A21;
+    width: 200px;
+    height: 40px;
+    background-color: #B6F5E8 ;
+}
+.Container .elements .element .Input .Select .Option:hover{
+    font-size:20px;
+    border-radius: 4px;
+    color: #3C2A21;
+    background-color:#E6D2AA;  
+}
+.Container .elements .element .Temperature input{
+    height: 40px;
+    width: 200px;
+    margin-top:0px ;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #3C2A21;
+    background-color: #B6F5E8;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Container .elements .element .Result input{
+    height: 40px;
+    width: 200px;
+    margin-top:0px ;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #3C2A21;
+    background-color: #B6F5E8;
+}
+.Button input{
+    -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 12px;
+  width: 180px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3C2A21;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+.Button input:hover{
+    background: #E6D2AA;
+    text-decoration: none;
+    color: #3C2A21;
+}
+
+
+
+
+
